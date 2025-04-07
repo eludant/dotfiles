@@ -11,6 +11,7 @@ comes from theprimeagen
 ## Needed Dependencies
 
 The programs that i use:
+
     - bspwm & sxhkd
     - rofi
     - feh
