@@ -80,6 +80,10 @@ bindsym Mod4+d exec --no-startup-id ~/.config/rofi/launchers/type-4/launcher.sh
 bindsym Mod4+e exec thunar
 bindsym Mod4+m exec emacsclient --no-wait --create-frame
 bindsym Mod4+Shift+u exec ~/.config/rofi/applets/bin/brightness.sh
+
+bindsym Print exec NOW=$(date +%d-%b-%Y_%H-%M-%S) && maim --format png --select -u > ~/screenshots/screenshot_$NOW.png && xclip -selection clip -t image/png ~/screenshots/screenshot_$NOW.png
+
+
 # A more modern dmenu replacement is rofi:
 # bindsym Mod4+d exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
