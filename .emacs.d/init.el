@@ -7,8 +7,6 @@
 (menu-bar-mode 0)
 (scroll-bar-mode 0)
 (fido-mode 1)
-(fido-vertical-mode 1)
-
 
 (global-set-key [f5] 'compile)
 (global-set-key [f6] 'recompile)

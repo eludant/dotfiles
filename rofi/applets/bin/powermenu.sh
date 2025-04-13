@@ -88,11 +88,11 @@ run_cmd() {
 	if [[ "$1" == '--opt1' ]]; then
 		betterlockscreen -l
 	elif [[ "$1" == '--opt2' ]]; then
-		confirm_run 'bspc quit'
+		confirm_run 'i3-msg exit'
 	elif [[ "$1" == '--opt3' ]]; then
 		confirm_run 'sudo reboot'
 	elif [[ "$1" == '--opt4' ]]; then
-		confirm_run 'sudo shutdown now'
+		confirm_run 'sudo shutdown -h now'
 	fi
 }
 
