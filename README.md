@@ -10,22 +10,22 @@ but free to do whatever you want.
 
 ## Dependencies
 
--i3wm (of course)
--rofi
--feh
--picom (i use picom-simpleanims-git from AUR)
--kitty
--brave
--pipewire, pipewire-pulse, wireplumber (sound system)
--sddm (the theme i use requires Qt5)
--zsh (i use oh-my-zsh)
--emacs
--betterlockscreen
--brightnessctl
--maim
--xclip
--thunar (used as a basic explorer)
--lxappearance (used to set themes and icons)
+- i3wm (of course)
+- rofi
+- feh
+- picom (i use picom-simpleanims-git from AUR)
+- kitty
+- brave
+- pipewire, pipewire-pulse, wireplumber (sound system)
+- sddm (the theme i use requires Qt5)
+- zsh (i use oh-my-zsh)
+- emacs
+- betterlockscreen
+- brightnessctl
+- maim
+- xclip
+- thunar (used as a basic explorer)
+- lxappearance (used to set themes and icons)
 
 ## Preview
 
