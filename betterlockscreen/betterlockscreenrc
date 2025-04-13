@@ -9,7 +9,7 @@ dim_level=20
 blur_level=0.8
 pixel_scale=10,1000
 solid_color=333333
-wallpaper_cmd="feh --bg-fill ~/Wallpapers/lockandsddm.jpg"
+wallpaper_cmd="feh --bg-fill ~/Wallpapers/lock.jpg"
 quiet=false
 
 # default theme
