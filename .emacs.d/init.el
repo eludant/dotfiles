@@ -10,6 +10,9 @@
 (fido-vertical-mode 1)
 
 
+(global-set-key [f5] 'compile)
+(global-set-key [f6] 'recompile)
+
 (global-display-line-numbers-mode)
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -28,6 +31,13 @@
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
 (package-initialize)
 (move-text-default-bindings)
+
+(setq-default indent-tabs-mode nil)
+
+(add-hook 'c-mode-common-hook
+          (lambda () (setq indent-tabs-mode t)))
+
+(setq c-basic-offset 4)
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
