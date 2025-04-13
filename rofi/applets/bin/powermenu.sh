@@ -92,7 +92,7 @@ run_cmd() {
 	elif [[ "$1" == '--opt3' ]]; then
 		confirm_run 'sudo reboot'
 	elif [[ "$1" == '--opt4' ]]; then
-		confirm_run 'sudo shutdown'
+		confirm_run 'sudo shutdown now'
 	fi
 }
 
