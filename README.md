@@ -1,4 +1,4 @@
-<h1 style="text-align=center;">i3wm-Dotfiles</h1>
+# i3wm-Dotfiles
 
 my personal dotfiles, do not recommend using it because its very amateur,
 but free to do whatever you want.
