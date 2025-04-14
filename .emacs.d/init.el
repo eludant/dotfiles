@@ -36,6 +36,7 @@
           (lambda () (setq indent-tabs-mode t)))
 
 (setq c-basic-offset 4)
+(set-default 'truncate-lines t)
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
